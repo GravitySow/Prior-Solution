@@ -15,7 +15,6 @@
 		9EFFD6E225FF7A1F0078EF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFD6E025FF7A1F0078EF3A /* LaunchScreen.storyboard */; };
 		9EFFD6ED25FF7A1F0078EF3A /* Prior_SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFD6EC25FF7A1F0078EF3A /* Prior_SolutionTests.swift */; };
 		9EFFD6F825FF7A1F0078EF3A /* Prior_SolutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFD6F725FF7A1F0078EF3A /* Prior_SolutionUITests.swift */; };
-		9EFFD70E25FF7E770078EF3A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFD70D25FF7E770078EF3A /* TableViewCell.swift */; };
 		9EFFD71B260080440078EF3A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFD71A260080440078EF3A /* Data.swift */; };
 		9EFFD7202600AC060078EF3A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFD71F2600AC060078EF3A /* DetailVC.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		9EFFD6F325FF7A1F0078EF3A /* Prior SolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prior SolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFFD6F725FF7A1F0078EF3A /* Prior_SolutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prior_SolutionUITests.swift; sourceTree = "<group>"; };
 		9EFFD6F925FF7A1F0078EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EFFD70D25FF7E770078EF3A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9EFFD71A260080440078EF3A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		9EFFD71F2600AC060078EF3A /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +83,6 @@
 		9EFFD6C925FF7A1E0078EF3A = {
 			isa = PBXGroup;
 			children = (
-				9EFFD70D25FF7E770078EF3A /* TableViewCell.swift */,
 				9EFFD6D425FF7A1E0078EF3A /* Prior Solution */,
 				9EFFD6EB25FF7A1F0078EF3A /* Prior SolutionTests */,
 				9EFFD6F625FF7A1F0078EF3A /* Prior SolutionUITests */,
@@ -269,7 +266,6 @@
 			files = (
 				9EFFD6DA25FF7A1E0078EF3A /* ViewController .swift in Sources */,
 				9EFFD71B260080440078EF3A /* Data.swift in Sources */,
-				9EFFD70E25FF7E770078EF3A /* TableViewCell.swift in Sources */,
 				9EFFD6D625FF7A1E0078EF3A /* AppDelegate.swift in Sources */,
 				9EFFD6D825FF7A1E0078EF3A /* SceneDelegate.swift in Sources */,
 				9EFFD7202600AC060078EF3A /* DetailVC.swift in Sources */,

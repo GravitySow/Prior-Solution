@@ -15,7 +15,7 @@ class DetailVC: UIViewController {
     @IBOutlet weak var img: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbl.text = ("Name: \((Result?.name)!)\nStatus: \((Result?.status)!)\nSpecies: \((Result?.species)!)\nType: \((Result?.type)!)\nGender: \((Result?.gender)!)\n")
+        lbl.text = ("Name: \((Result?.name)!)\nStatus: \((Result?.status)!)\nSpecies: \((Result?.species)!)\nType: \((Result?.type)!)\nGender: \((Result?.gender)!)\nOrigin: \((Result?.origin.name)!)\nLocation: \((Result?.location.name)!)")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
